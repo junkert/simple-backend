@@ -3,7 +3,7 @@ import (
 	"context"
 	"github.com/graphql-go/graphql"
 	mongo "github.com/junkert/simple-backend/data"
-	types "github.com/junkert/simple-backend/types"
+	"github.com/junkert/simple-backend/types"
 )
 type todoStruct struct {
   NAME   string `json:"name"`

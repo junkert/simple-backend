@@ -1,10 +1,10 @@
 package fields
 import (
 	"context"
-	graphql "github.com/graphql-go/graphql"
+	"github.com/graphql-go/graphql"
 	mongo "github.com/junkert/simple-backend/data"
-	types "github.com/junkert/simple-backend/types"
-	bson "github.com/mongodb/mongo-go-driver/bson"
+	"github.com/junkert/simple-backend/types"
+	"github.com/mongodb/mongo-go-driver/bson"
 )
 type todoStruct struct {
   NAME   string `json:"name"`
