@@ -5,8 +5,8 @@ import (
   "net/http"
   "github.com/graphql-go/graphql"
   "github.com/graphql-go/handler"
-  "app/queries"
-  "app/mutations"
+  queries "github.com/junkert/simple-backend/queries"
+  mutations "github.com/junkert/simple-backend/mutations"
 	"os"
 )
 var schema, _ = graphql.NewSchema(graphql.SchemaConfig{
